@@ -1,7 +1,7 @@
-DESCRIPTION:
+## DESCRIPTION:
 This is an assignment for my programming II class.
 
-CHALLENGE:
+### CHALLENGE:
 Design a Text File Compression with the following functions:
 - Able to compress a text file and generate an index file
 - Able to decompress the file
@@ -12,11 +12,11 @@ To compile, type this in console:
    g++ zip.cpp compress.cpp
 
 
-LIMITATION:
+### LIMITATION:
 This program does not support case insensitive, i.e.,  "I LIKE" and "I like" will be treated 
 differently by the program.
 
 
-Written by,
 Soh Yee, Lee
+
 2009, Jan
