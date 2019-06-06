@@ -1,14 +1,13 @@
-#CONTENT:
-#This is the assignment I did for Data Structure & Algorithm class. Please read "Assignment.pdf" for the problem statement.
+## CONTENT:
+### This is the assignment I did for Data Structure & Algorithm class. Please read "Assignment.pdf" for the problem statement.
 
 
 To compile, type this in console:
    g++ command.cpp database.cpp
 
 
-WHAT IS SUPPORTED:
------------------
-CREATE:
+## WHAT IS SUPPORTED:
+### CREATE:
 1. Missing colon in 1 of the line will cause error.
 2. Missing the string "PRIMARy KEY" in the first attribute will cause error.
 3. Adding "additional" colon in each line will cause error.
@@ -26,7 +25,7 @@ CREATE:
 9. Maximum 6 attributes can be created only as mention in the assignment.More than 6 = error.
 
 
-INSERT:
+### INSERT:
 1. The command must be "INSERT" "INTO" "TABLENAME",they must be seperated by a least a space,
    else = error.
 2. The table name must be correct,else = error.
@@ -38,7 +37,7 @@ INSERT:
 e.g. ("abc",     "efg"   , 12345).
 
 
-SELECT:
+### SELECT:
 1. The table name to be selected must be correct,else = error.
 2. The command must be "SELECT" "FROM" "TABLENAME".There must be a least a space between them,
    else = error.
@@ -52,19 +51,19 @@ SELECT:
    they must be seperated by a least a space, and the sort key must be correct.Else = error.
 9. WHERE just support 1 condition(attribute) only.
 
-DELETE:
+### DELETE:
 1. The command must be "DELETE" "FROM" "TABLENAME" "WHERE",they must be seperated by a 
    least a space,and the table name must be correct,else = error.
 2. The attribute name for WHERE condition must be correct,else = error.
 3. WHERE just support 1 condition(attribute) only.
 4. STRING type data for WHERE must enclose with '"', and vice versa.
 
-DROP:
+### DROP:
 1. The command must be "DROP" "TABLE" "TABLENAME",the table name must be correct,and they must 
    be seperated by at least a space.
 2. Adding some "additional" words after the table name will cause error.
 
-UPDATE:
+### UPDATE:
 1. The table name must be correct,else = error.
 2. The size for the new data must be in the range,else it will set to NULL.
 3. WHERE just support 1 condition(attribute) only.
@@ -73,26 +72,27 @@ UPDATE:
 Others:
 1. Missing semicolon ';' in each command will cause error.
 2. A nonspace character between each command will cause error.
-
-Eg.
+```
+e.g.
 Insert into xxxxxx;
 asdasd	   		<--- error.
 select from xxxxx;
-
+```
 3. All the strings,except the data(how the data is written,it will be stored like that too)
    can be written in upper case,or lower case,or combination of two.
-
-E.g.
+```
+e.g.
 InSeRt InTO xxxx;	<--- accepted.
 SelECt aBc fRom xxxx;	<--- accepted.
-
+```
 4. For WHERE and SET condition,whether there is a space or not space between '=' is accepted.
+
+```
 E.g.
 WhEre xxx=yyy;      <--- accepted.
 SET zzz     = yyyy;   <--- accepted
+```
 
-
-
-Written by,
 Soh Yee, Lee
-2009 May
+
+2009, May
