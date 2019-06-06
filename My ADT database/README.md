@@ -1,5 +1,5 @@
-##CONTENT:
-##This is the assignment I did for Data Structure & Algorithm class. Please read "Assignment.pdf" for the problem statement.
+#CONTENT:
+#This is the assignment I did for Data Structure & Algorithm class. Please read "Assignment.pdf" for the problem statement.
 
 
 To compile, type this in console:
